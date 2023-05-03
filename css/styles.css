@@ -532,6 +532,9 @@ img {
 
 .portfolio-link {
     display: block;
+    transition-property: box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .image-container {
@@ -541,8 +544,6 @@ img {
 .portfolio-link:hover,
 .portfolio-link:focus {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-hover-text-container {
@@ -554,6 +555,9 @@ img {
     mix-blend-mode: normal;
     background-color: #4D5AE5;
     overflow: hidden;
+    transition-property: height;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-hover-text {
@@ -570,8 +574,6 @@ img {
 .portfolio-link:hover .portfolio-hover-text-container,
 .portfolio-link:focus .portfolio-hover-text-container{
     height: 100%;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-item-container {
