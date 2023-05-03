@@ -84,6 +84,9 @@ img {
     color: #2e2f42;
     padding-top: 24px;
     padding-bottom: 24px;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .list-link-item:hover,
@@ -109,6 +112,9 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .selected-list-link-item {
@@ -203,6 +209,9 @@ img {
     margin-left: auto;
     margin-right: auto;
     margin-top: 48px;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .order-service-button:hover,
@@ -322,6 +331,9 @@ img {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-media-icon-link:hover,
@@ -365,6 +377,9 @@ img {
     align-items: center;
     justify-content: center;
     color: #8e8f99;
+    transition-property: background-color border-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customer-link:hover,
@@ -381,7 +396,6 @@ img {
     background-color: #2e2f42;
     padding: 100px 0;
     color: #2e2f42;
-    margin-bottom: 72px;
 }
 
 .footer-container {
@@ -450,6 +464,9 @@ img {
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-media-footer-link:hover,
@@ -488,6 +505,9 @@ img {
     padding: 12px 24px;
     border: 1px solid #e7e9fc;
     border-radius: 4px;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-button:hover,
