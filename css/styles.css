@@ -657,3 +657,12 @@ img {
     align-items: center;
     fill: #2E2F42;
 }
+
+.close-btn:hover {
+    background-color: #404BBF;
+    border: none;
+}
+
+.close-btn:hover .close-icon {
+    fill: #FFFFFF;
+}
