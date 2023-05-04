@@ -650,17 +650,23 @@ img {
     padding: 8px;
     display: flex;
     cursor: pointer;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close-icon {
     justify-content: center;
     align-items: center;
     fill: #2E2F42;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close-btn:hover {
     background-color: #404BBF;
-    border: none;
+    border: 1px solid #404BBF;
 }
 
 .close-btn:hover .close-icon {
